@@ -23,5 +23,3 @@ insertionQ('.b-Fo .b-f-n-er .b-f-n').every(function(element){
 $(document).on('click', '.b-f-n-er button', function() { 
 	markdown($(this).parents('.b-f-n-er').find('.b-f-n').get(0)); 
 });
-
-// todo: need to parse out <a> when saving the innerHTML
