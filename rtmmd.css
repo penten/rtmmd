@@ -1,0 +1,7 @@
+.rtmmd h1, .rtmmd h2, .rtmmd h3, .hrmmd h4 { font-weight: bold; text-decoration:underline; }
+.b-Fo .b-f-n.rtmmd { white-space: normal;}
+.rtmmd li { list-style-type: disc; margin-left: 20px; }
+.rtmmd ul, .rtmmd p {margin-top: 1em; margin-bottom: 1em; }
+.rtmmd pre { padding: 10px; background-color:#F5F5F5; }
+.rtmmd td, .rtmmd th { border: 1px solid #BBB; padding: 3px; }
+.rtmmd th { background-color: #DDD; font-weight: bold; }

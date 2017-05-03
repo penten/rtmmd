@@ -1,0 +1,17 @@
+{
+  "name": "RememberTheMilk Markdown Notes",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Formats notes using markdown",
+  "permissions": ["https://www.rememberthemilk.com/"],
+  "icons": { 
+	  "128": "icon.png" 
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.rememberthemilk.com/*"],
+      "css": ["rtmmd.css"],
+      "js": ["jquery.js", "showdown.js", "insq.js", "rtmmd.js"]
+    }
+  ]
+}
